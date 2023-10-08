@@ -6,7 +6,7 @@ import {Routes, Route} from 'react-router-dom';
 import Projects from './components/Projects';
 import WeekDays from './components/WeekDays';
 import Weekends from './components/Weekends';
-
+import Game from './components/Game';
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path ="/about-me" element={<AboutMe />} /> 
       <Route path="/projects" element={<Projects/>} />
+      <Route path="/game" element={<Game/>} />
       </Routes>
       
 

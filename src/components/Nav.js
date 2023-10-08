@@ -7,6 +7,7 @@ const Nav = () =>{
             <li style={liStyle}> <Link to ="/" style={aStyle} className="nav-item">Home</Link> </li>
             <li style={liStyle}> <Link to ="/about-me" style={aStyle} className="nav-item">About Me</Link> </li>
             <li style={liStyle}> <Link to="/projects" style={aStyle} className="nav-item">Projects</Link></li>
+            <li style={liStyle}> <Link to="/game" style={aStyle} className="nav-item">Game</Link></li>
         </ul>
     </nav>
 

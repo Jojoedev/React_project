@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.correct{
+  color: green;
+}
+
+.incorrect{
+  color: red;
+}

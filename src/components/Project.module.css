@@ -20,4 +20,25 @@
 
 .header{
     color: black;
+    
+}
+.Game{
+    border: 2px blue solid;
+    background-color: thistle;
+    width: 500px;
+    margin-left: 500px;
+    height: 300px;
+}
+.title{
+    color: black;
+    font-size: 20px;
+}
+.btn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px red solid;
+}
+.input {
+    height: 20px;
 }
